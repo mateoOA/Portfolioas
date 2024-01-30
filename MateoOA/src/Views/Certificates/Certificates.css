@@ -1,0 +1,11 @@
+
+.Efset{
+    margin-top: 100px;
+    margin-bottom: 250px;
+}
+.Horizontal{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 220px;
+    margin-top: 70px;
+}
