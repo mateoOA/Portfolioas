@@ -14,12 +14,7 @@ function ContactMe() {
 
   return (
     <>
-        <span className='PersonalData'>
-        Datos Personales: <br/>
-        matossoara@gmail.com <br/>
-        +54 011 4079-0510 <br/>
-        Buenos Aires, Argentina
-      </span>
+        
       <div className='SwitchCV'>
         <span style={{ marginRight: '10px' }}> CV:</span>
         <Switch

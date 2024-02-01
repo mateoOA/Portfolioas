@@ -7,7 +7,7 @@ function Certificates() {
         src="../../../public/EF SET Certificate.pdf#toolbar=0"
         width="100%"
         height="600px"
-        className="TercerPDF"
+        className="Efset"
       ></iframe>
         <span className="Horizontal">    
             <iframe
@@ -18,7 +18,7 @@ function Certificates() {
                 ></iframe>
 
             <iframe
-                src="../../../public/Henry Certificado.pdf#toolbar=0"
+                src="../../../public/CERTIFICADO CISMA MATEO.pdf#toolbar=0"
                 width="48%"
                 height="200px"
                 ></iframe>
