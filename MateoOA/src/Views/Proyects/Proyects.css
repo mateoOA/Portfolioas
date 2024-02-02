@@ -30,6 +30,9 @@
     color: #EE4266;
     font-size: 30px;
 }
+.Card{
+    cursor: pointer;
+}
 @media only screen and (max-width: 990px) {
     
 }
