@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import Switch from '@mui/material/Switch';
+import CVEng from "../../../public/Mateo Ossorio Arana CV (english).png"
+import CVEs from "../../../public/Mateo Ossorio Arana CV.png"
 import "./ContactMe.css"
 
 
@@ -26,12 +28,12 @@ function ContactMe() {
         <span style={{ marginLeft: '10px' }}>{languageText}</span>
       </div>
 
-      <iframe
-        src={showEnglishCV ? '../../../public/Mateo Ossorio Arana CV (english).pdf#toolbar=0' : '../../../public/Mateo Ossorio Arana CV.pdf#toolbar=0'}
+      <img
+        src={showEnglishCV ? CVEng : CVEs}
         width="100%"
         height="900px"
         className="CV"
-      ></iframe>
+      />
       
     </>
   );

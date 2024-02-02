@@ -1,27 +1,31 @@
+import Efset from "../../../public/EF SET Certificate.png"
+import Henry from "../../../public/Henry Certificado.png"
+import Cisma from "../../../public/CERTIFICADO CISMA MATEO.png"
 import "./Certificates.css"
 
 function Certificates() {
   return (
     <>
-      <iframe
-        src="../../../public/EF SET Certificate.pdf#toolbar=0"
+      <img
+        src={Efset}
         width="100%"
         height="600px"
         className="Efset"
-      ></iframe>
+      />
         <span className="Horizontal">    
-            <iframe
-                src="../../../public/Henry Certificado.pdf#toolbar=0"
+            <img
+                src={Henry}
                 width="48%"
                 height="200px"
                 className="Henry"
-                ></iframe>
+                />
 
-            <iframe
-                src="../../../public/CERTIFICADO CISMA MATEO.pdf#toolbar=0"
+            <img
+                src={Cisma}
                 width="48%"
                 height="200px"
-                ></iframe>
+                
+                />
         </span>
     </>
   );
